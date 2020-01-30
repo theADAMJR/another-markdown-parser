@@ -8,6 +8,20 @@ I got bored so I made this.
 The markdown functionality is very simple, and is easily extendible.
 This uses extended syntax to convert bootstrap warnings.
 
+## How to use
+1) Import -> `<script src="/parser.js" type="module"></script>`
+2) Parse
+```html
+<script src="/parser.js" type="module"></script>
+<script>
+  import Parser from "/parser.js"
+  
+  const md = document.getElementById("md"); 
+  const parsed = new Parser().parse(md.text);
+  md.innerHTML = parsed;
+</script>
+```
+
 ## Guide
 markdown-parser Cheat Sheet
 
