@@ -9,11 +9,11 @@ The markdown functionality is very simple, and is easily extendible.
 This uses extended syntax to convert bootstrap warnings.
 
 ## How to use
-1) Import -> `import Parser from "/parser.js";`
+1) Import -> `import Parser from "Parser.js";`
 2) Implement
 ```html
 <script type="module">
-  import Parser from "/parser.js";
+  import Parser from "Parser.js";
   
   const md = document.getElementById("md"); 
   const parsed = new Parser().parse(md.innerHTML);
