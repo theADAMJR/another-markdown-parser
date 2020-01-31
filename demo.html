@@ -8,12 +8,11 @@
 	<title>markdown-parser demo</title>
 </head>
 <body>
-  <script src="/parser.js" type="module"></script>
   <script>
-    import Parser from "/parser.js"
+    import Parser from "parser.js";
 
     const md = document.getElementById("md"); 
-    const parsed = new Parser().parse(md.text);
+    const parsed = new Parser().parse(md.innerHTML);
     md.innerHTML = parsed;
   </script>
 </body>
