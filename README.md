@@ -14,7 +14,7 @@ This uses extended syntax to convert bootstrap warnings.
 ```html
 <script src="/parser.js" type="module"></script>
 <script type="module">
-  import Parser from "/parser.js"
+  import Parser from "/parser.js";
   
   const md = document.getElementById("md"); 
   const parsed = new Parser().parse(md.innerHTML);
