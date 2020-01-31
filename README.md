@@ -1,4 +1,4 @@
-# markdown-parser
+# another-markdown-parser
 **Markdown -> HTML, simplified**
 
 *From*: [https://3pg.xyz](https://3pg.xyz)
