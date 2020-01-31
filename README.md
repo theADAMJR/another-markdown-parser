@@ -22,7 +22,7 @@ This uses extended syntax to convert bootstrap warnings.
 ```
 
 ## Guide
-markdown-parser Cheat Sheet
+another-markdown-parser Cheat Sheet
 
 ### Inline
 | Element        | Markdown           |
