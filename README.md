@@ -9,10 +9,9 @@ The markdown functionality is very simple, and is easily extendible.
 This uses extended syntax to convert bootstrap warnings.
 
 ## How to use
-1) Import -> `<script src="/parser.js" type="module"></script>`
-2) Parse
+1) Import -> `import Parser from "/parser.js";`
+2) Implement
 ```html
-<script src="/parser.js" type="module"></script>
 <script type="module">
   import Parser from "/parser.js";
   
